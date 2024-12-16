@@ -1,8 +1,8 @@
 # Git Exercise 
 
-## Bundle 1
+## Bundle 1 Exercise 1
 
-### Exercise 1
+###  Command history
 
 ```bash 
 
