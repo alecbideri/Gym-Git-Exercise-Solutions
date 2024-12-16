@@ -63,20 +63,13 @@ Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 Changed back to master 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
-$ git branch -m master main
+$ git branch -m master main  // change it back to main 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (main)
-.gitt remote add origin https://github.com/alecbideri/Gym-Git-Exercise-Solutions.
-usage: git remote add [<options>] <name> <url>
+$ git remote add origin https://github.com/alecbideri/Gym-Git-Exercise-Solutions.git
 
-    -f, --fetch           fetch the remote branches
-    --tags                import all tags and associated objects when fetching
-                          or do not fetch any tag at all (--no-tags)
-    -t, --track <branch>  branch(es) to track
-    -m, --master <branch>
-                          master branch
-    --mirror[=<push|fetch>]
-                          set up remote as a mirror to push to or fetch from
+
+
 
 
 ```
