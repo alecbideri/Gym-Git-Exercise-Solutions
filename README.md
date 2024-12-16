@@ -172,4 +172,6 @@ Switched to branch 'main'
 M       README.md        
 PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
 
+```
 
+## Above are all the commands used for the exercise 
