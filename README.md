@@ -2,7 +2,7 @@
 
 ## Bundle 1 Exercise 1
 
-###  Command history
+###  Creating a folder , file and git initiation 
 
 ```bash 
 
@@ -50,6 +50,11 @@ $ git commit -m "New file"
  1 file changed, 3 insertions(+)
  create mode 100644 README.md
 
+```
+
+## Changing from master to main , vice versa 
+
+```bash
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git branch -m master main
 
@@ -66,6 +71,13 @@ Changed back to master
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git branch -m master main  // change it back to main 
+
+```
+
+## Add remote connection and push changes to the online repository
+
+``` bash
+
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (main)
 $ git remote add origin https://github.com/alecbideri/Gym-Git-Exercise-Solutions.git
@@ -88,3 +100,50 @@ To https://github.com/alecbideri/Gym-Git-Exercise-Solutions.git
 
 
 ```
+
+## Creating a new branch 
+
+```bash 
+
+## branch status 
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch 
+* main
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
+
+## creating the dev branch 
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch dev
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch
+  dev
+* main
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
+
+## checkout to the dev branch , create test branch and switch to it .
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git checkout dev
+Switched to branch 'dev'
+M       README.md       
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch test
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git checkout test 
+Switched to branch 'test'
+M       README.md
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
+
+## checkout dev and delete test 
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git checkout dev 
+Switched to branch 'dev'
+M       README.md       
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch -d test 
+Deleted branch test (was d27b73f).
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
+
+## swtich back to main 
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git checkout main 
+Switched to branch 'main'
+M       README.md        
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
+
+
