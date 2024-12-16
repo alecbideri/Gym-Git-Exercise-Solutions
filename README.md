@@ -6,6 +6,8 @@
 
 ```bash 
 
+## directory navigation 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop (master)
 $ cd Alec/
 
@@ -16,19 +18,29 @@ Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec (master)
 $ ls
  DSA-and-katas-8kyu-7kyu-Fundamentals/  'Git Fundamentals'/   JS-DOM/
 
+
+## creation of new project folder 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec (master)
 $ mkdir Bundle1Exercise1
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec (master)
 $ cd Bundle1Exercise1/
 
+
+## git initialization 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git init
 Initialized empty Git repository in C:/Users/Prince BUGINGO/Desktop/Alec/Bundle1              Exercise1/.git/
 
+## check the file creation in the folder 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ ls
 README.md
+
+## stagin the file on the default master branch 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git add README.md
@@ -44,6 +56,8 @@ Changes to be committed:
 
         new file:   README.md
 
+## First commit to the local repository 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git commit -m "New file"
 [master (root-commit) 618b5c6] New file
@@ -55,22 +69,25 @@ $ git commit -m "New file"
 ## Changing from master to main , vice versa 
 
 ```bash
+
+## change from master to main 
+
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 $ git branch -m master main
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (main)
 
-The above changed to main 
+## change it back to master 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (main)
 $ git branch -m main master
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
 
-Changed back to master 
+## change it back to main 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (master)
-$ git branch -m master main  // change it back to main 
+$ git branch -m master main  
 
 ```
 
@@ -78,6 +95,7 @@ $ git branch -m master main  // change it back to main
 
 ``` bash
 
+## Add remote connection 
 
 Prince BUGINGO@DESKTOP-B1CA60T MINGW64 ~/Desktop/Alec/Bundle1Exercise1 (main)
 $ git remote add origin https://github.com/alecbideri/Gym-Git-Exercise-Solutions.git
@@ -86,6 +104,9 @@ $ git remote add origin https://github.com/alecbideri/Gym-Git-Exercise-Solutions
 PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git status 
 On branch main
 nothing to commit, working tree clean
+
+## Push to the origin main 
+
 PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git push origin main 
 fatal: HttpRequestException encountered.       
    An error occurred while sending the request.
@@ -101,7 +122,7 @@ To https://github.com/alecbideri/Gym-Git-Exercise-Solutions.git
 
 ```
 
-## Creating a new branch 
+## Creating new branches
 
 ```bash 
 
@@ -137,6 +158,11 @@ Switched to branch 'dev'
 M       README.md       
 PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch -d test 
 Deleted branch test (was d27b73f).
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1>
+
+PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> git branch 
+  *dev
+   main
 PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1> 
 
 ## swtich back to main 
