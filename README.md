@@ -174,4 +174,4 @@ PS C:\Users\Prince BUGINGO\Desktop\Alec\Bundle1Exercise1>
 
 ```
 
-## Above are all the commands used on the exercises .
+## Above are all the commands history .
